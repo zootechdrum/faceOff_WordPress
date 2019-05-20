@@ -1,0 +1,22 @@
+/* 
+Theme Name: FaceOff Visuals
+Author: Cesar Gomez
+Version 1.0
+*/
+
+body{
+    background: #262626;
+}
+.header-logo {
+    height: 50px;
+    width: 100px;
+}
+.dark-header {
+    background: #1a1a1a;
+}
+.navbar-brand {
+    color:white;
+}
+.navbar-nav.ml-auto li a{
+    color: white !important;
+}
