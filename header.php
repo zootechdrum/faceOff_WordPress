@@ -6,7 +6,7 @@
     <head>
     <body>
         <nav class="navbar navbar-expand-lg   dark-header">
-        <img src="<?php echo get_template_directory_uri()?>/header-logo.jpg" <alt="business logo" class="header-logo" />
+        <img src="<?php echo get_template_directory_uri()?>/header_logo.png" <alt="business logo" class="header-logo" />
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
