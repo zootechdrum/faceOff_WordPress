@@ -3,9 +3,9 @@
   <div class="container-fluid">
     <div class="row">
       <div class="img-container">
-      <img src="<?php echo get_template_directory_uri()?>/spoat.jpg" <alt="business logo" /><img 
-            src="<?php echo get_template_directory_uri()?>/fender.jpg" <alt="business logo" /><img
-            src="<?php echo get_template_directory_uri()?>/money.jpg" <alt="business logo" />
+      <img src="<?php echo get_template_directory_uri()?>/sitDown.jpg" <alt="business logo" /><img 
+            src="<?php echo get_template_directory_uri()?>/fc_logo.jpg" <alt="business logo" /><img
+            src="<?php echo get_template_directory_uri()?>/lookDown.jpg" <alt="business logo" />
       </div>
     </div>
   </div>
@@ -16,13 +16,19 @@
         <div class="contact-us-section">
           <div class="contact-us-section__title text-center">
             <h2 class="">CONTACT US</h2>
+            <div class="contact-us-seperator">
+              <span></span>
+            </div>
+            <h4 class="contact-us-section-sub">Don't hesitate to get in touch. 
+            <br>  
+            We want to discuss your project.</h4>
            </div>
          </div>
         <div>
       </div>
     <div class="col-lg-6">
 
-    <form action="https://mailthis.to/rakeembattle90@gmail.com" method="POST" encType="multipart/form-data" class="form">
+      <form action="https://mailthis.to/rakeembattle90@gmail.com" method="POST" encType="multipart/form-data" class="form">
         <div class="form__group">
           <label for="name" class="form__label">Full name *</label>
           <input type="text" name="name" class="form-control" placeholder="Full Name" id="name" required>
@@ -34,17 +40,29 @@
         </div>
         <div class="form__group u-margin-top">
           <label for="message" class="form__label">Leave A Message *</label>
-          <textarea id="textarea"  type="text" name="message" class="form-control"></textarea>
+          <textarea id="textarea" type="text" name="message" class="form-control"></textarea>
         </div>
         <div class="form__group">
-                <button type="submit" value="Send" class="btn">Submit &rarr;</button>
+          <button type="submit" value="Send" class="btn">Submit &rarr;</button>
         </div>
         <input type="hidden" name="_subject" value="Contact form submitted">
-         <input type="hidden" name="_after" value="https://myhomepage.net/">
+        <input type="hidden" name="_after" value="https://myhomepage.net/">
         <input type="hidden" name="_honeypot" value="">
         <input type="hidden" name="_confirmation" value=""> </form>
-    </div>
-  </div> -->
+      </div>
+      <div class="col-lg-6">
+        <div class="row">
+          <div class="contact-details">
+            <div>
+              <h5>Drop in for a second</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+
+  
 
  
  <?php get_footer(); ?>

@@ -6,7 +6,8 @@ Version 1.0
 
 body{
     background: #262626;
-    font-family: lato;
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
 }
 .header-logo {
     height: 35%;
@@ -40,8 +41,8 @@ body{
       line-height: 26px;
       display:block;
       color: #ffff;
+      font-weight: 300;
   }
-
 
   input[type=text], input[type=email], #textarea{
     background: #1a1a1a;
@@ -59,7 +60,54 @@ body{
       width:100%;
   }
 
-  .contact-us-section__title h2 {
-   color:white;
-   font-weight: 900;   
+  .contact-us-section__title{
+   color:#ffff;  
   }
+  .contact-us-section__title h2{
+    font-weight:900;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -0.05em;  
+   }
+
+  .contact-us-seperator {
+      width:100%;
+      height: 44px;
+      text-align:center;
+      line-height: 0;
+      padding: 8px 0;
+      padding: 16px 0;
+  }
+
+span {
+    background: #ffff;
+    opacity: 0.2;
+    width:100px;
+    color:white;
+    height:2px;
+    display:inline-block;
+}
+  .contact-us-section-sub {
+      margin-top:5px;
+      color: #dadada;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 300;
+      font-size: 22px;
+      line-height: 28px;
+      letter-spacing: 0.05em;
+  }
+
+  .contact-details {
+      color: #ffff;
+  }
+
+  .contact-details h5 {
+      font-family: 'Raleway', sans-serif;
+      line-height: 27px;
+      font-size:18px;
+      font-weight: 400px;
+      color: #ffff;
+      padding-left: 30px;
+  }
+
