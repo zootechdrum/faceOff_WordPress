@@ -6,6 +6,7 @@ Version 1.0
 
 body{
     background: #262626;
+    font-family: lato;
 }
 .header-logo {
     height: 35%;
@@ -42,11 +43,23 @@ body{
   }
 
 
-  input[type=text], input[type=email]{
+  input[type=text], input[type=email], #textarea{
     background: #1a1a1a;
     border-color: #4d4d4d;
   }
 
   .u-margin-top {
       margin-top: 15px;
+  }
+  /*contact-us-section*/
+
+  .contact-us-section {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      width:100%;
+  }
+
+  .contact-us-section__title h2 {
+   color:white;
+   font-weight: 900;   
   }
