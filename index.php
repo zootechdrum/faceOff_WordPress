@@ -11,9 +11,10 @@
 </div>
 
 <div class="container">
+  <div class="contact-us-section">
     <div class="col">
         <div class="row">
-            <div class="contact-us-section">
+            <div class="contact-us-section-header">
                 <div class="contact-us-section__title text-center">
                     <h2 class="">CONTACT US</h2>
                     <div class="contact-us-seperator">
@@ -70,8 +71,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
     </div>
+  </div>
 </div>
 
 

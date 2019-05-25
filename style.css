@@ -72,8 +72,10 @@ body{
       margin-top: 15px;
   }
   /*contact-us-section*/
-
-  .contact-us-section {
+.contact-us-section{
+    padding-bottom: 100px;
+}
+  .contact-us-section-header {
       padding-top: 100px;
       padding-bottom: 100px;
       width:100%;
@@ -135,5 +137,6 @@ span {
 
   footer{
       background-color:#1a1a1a;
+      padding: 80px;
   }
 
