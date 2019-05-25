@@ -49,6 +49,24 @@ body{
     border-color: #4d4d4d;
   }
 
+  button[type=submit] {
+      font-size: 13px;
+      line-height: 22px;
+      text-align:center;
+      border: none;
+      cursor: pointer;
+      padding: 15px 40px;
+      font-weight: 600;
+      font-family: 'Open Sans';
+      text-transform:uppercase;
+      letter-spacing: 0.1em;
+  }
+  button[type=submit]:hover {
+      background-color: #4da5f5;
+      transform:scale(1.07);
+      -webkit-transform:(1.07);
+  }
+
   .u-margin-top {
       margin-top: 15px;
   }
@@ -88,6 +106,9 @@ span {
     height:2px;
     display:inline-block;
 }
+  .form__submit {
+      margin-top: 30px;
+  }
   .contact-us-section-sub {
       margin-top:5px;
       color: #dadada;
@@ -100,6 +121,7 @@ span {
 
   .contact-details {
       color: #ffff;
+      padding-left: 30px;
   }
 
   .contact-details h5 {
@@ -108,6 +130,5 @@ span {
       font-size:18px;
       font-weight: 400px;
       color: #ffff;
-      padding-left: 30px;
   }
 

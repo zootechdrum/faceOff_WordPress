@@ -42,8 +42,8 @@
           <label for="message" class="form__label">Leave A Message *</label>
           <textarea id="textarea" type="text" name="message" class="form-control"></textarea>
         </div>
-        <div class="form__group">
-          <button type="submit" value="Send" class="btn">Submit &rarr;</button>
+        <div class="form__group form__submit">
+          <button type="submit" value="Send" class="btn btn-light">Submit &rarr;</button>
         </div>
         <input type="hidden" name="_subject" value="Contact form submitted">
         <input type="hidden" name="_after" value="https://myhomepage.net/">
@@ -55,6 +55,14 @@
           <div class="contact-details">
             <div>
               <h5>Drop in for a second</h5>
+              <p>Please allow 24 hours for a response.We often experiance high volumes.</p>
+              <p>&nbsp;</p>
+              <h5>
+                <strong>FaceOff Visuals&nbsp;</strong>
+              </h5>
+              <h5>
+                E: rakeembattle90@gmail.com
+              </h5>
             </div>
           </div>
         </div>
