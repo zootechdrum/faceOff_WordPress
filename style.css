@@ -65,6 +65,7 @@ body{
       background-color: #4da5f5;
       transform:scale(1.07);
       -webkit-transform:(1.07);
+      transition:all 200ms linear;
   }
 
   .u-margin-top {
@@ -130,5 +131,9 @@ span {
       font-size:18px;
       font-weight: 400px;
       color: #ffff;
+  }
+
+  footer{
+      background-color:#1a1a1a;
   }
 
