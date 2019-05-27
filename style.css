@@ -4,14 +4,23 @@ Author: Cesar Gomez
 Version 1.0
 */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background: #262626;
     font-family: 'Open Sans', sans-serif;
     font-size:14px;
 }
+.current-menu-item {
+    color:red;
+}
+
 .header-logo {
     height: 35%;
     width: 100px;
+    cursor:pointer;
 }
 .dark-header {
     background: #1a1a1a;
@@ -31,6 +40,7 @@ body{
 .nopadding > img {
     height: 439px;
     width: 100%;
+    min-width: 340px;;
 }
 
   label {
@@ -153,6 +163,9 @@ span {
       cursor: pointer;
       height:30px;
       width:30px;
+  }
+  .fab {
+      font-size: 18px;
   }
   .fa-instagram:hover {
     color:#8a3ab9

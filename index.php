@@ -15,7 +15,7 @@
 </div>
 
 <div class="container">
-  <div class="contact-us-section">
+  <div id="contact" class="contact-us-section">
     <div class="col">
         <div class="row">
             <div class="contact-us-section-header">
