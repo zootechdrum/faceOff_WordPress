@@ -2,11 +2,15 @@
 <?php get_header(); ?>
 <div class="container-fluid">
     <div class="row">
-        <div class="img-container">
-            <img src="<?php echo get_template_directory_uri()?>/sitDown.jpg" <alt="business logo" /><img
-                src="<?php echo get_template_directory_uri()?>/fc_logo.jpg" <alt="business logo" /><img
-                src="<?php echo get_template_directory_uri()?>/lookDown.jpg" <alt="business logo" />
-        </div>
+      <div class="col-lg-4 col-sm nopadding">
+        <img src="<?php echo get_template_directory_uri()?>/kanye.jpg" <alt="business logo" />
+      </div>
+      <div class="col-lg-4  col-sm nopadding">
+        <img src="<?php echo get_template_directory_uri()?>/fc_logo.jpg" <alt="business logo" />
+      </div>
+      <div class="col-lg-4 col-sm nopadding">
+        <img src="<?php echo get_template_directory_uri()?>/kanye.jpg" <alt="business logo" />
+      </div>
     </div>
 </div>
 

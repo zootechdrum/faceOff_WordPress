@@ -23,19 +23,15 @@ body{
     color: white !important;
 }
 
-/*img container */
-.img-container {
-    width:100%;
+/*img container */ 
+.nopadding{
+    padding:0;
   }
-  
-  .img-container > img {
-    height:100%;
-    width:33.334%;
-    min-width:30%;
-    max-width:100%;
-    margin: 0;
-    display:inline-block;
-  }
+
+.nopadding > img {
+    height: 439px;
+    width: 100%;
+}
 
   label {
       line-height: 26px;
@@ -154,7 +150,23 @@ span {
       padding: 0;
       margin: 0 3px 0 3px;
       position: relative;
+      cursor: pointer;
+      height:30px;
+      width:30px;
   }
+  .fa-instagram:hover {
+    color:#8a3ab9
+  }
+  .fa-twitter:hover{
+      color:#4da5f5;
+  }
+  .fa-facebook-square:hover {
+    color:#3b5998;
+  }
+  .fa-youtube:hover{
+      color:#c4302b;
+  }
+
 
   .copyright {
       color: #cccccc;
