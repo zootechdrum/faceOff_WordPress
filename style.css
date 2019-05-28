@@ -12,9 +12,7 @@ body{
     background: #262626;
     font-family: 'Open Sans', sans-serif;
     font-size:14px;
-}
-.current-menu-item {
-    color:red;
+    font-weight: 300;
 }
 
 .header-logo {
@@ -188,3 +186,102 @@ span {
       text-align: center;
   }
 
+  /*Blog Page CSS*/
+  .section-title {
+      margin-top: -10px;
+      margin-bottom: 100px;
+  }
+  .section-title h2 {
+      color:#ffff;
+      font-weight: 900;
+      font-family: 'Raleway';
+      font-size:40px;
+      line-height:52px;
+      letter-spacing: -0.05em;
+      text-transform:uppercase;
+      margin-top:113px;
+  }
+
+.subtitle {
+    color:#dadada;
+    margin-top: 5px;
+    font-weight:300;
+    letter-spacing: 0.05em;
+    line-height:28px;
+    font-size:22px;
+    margin-top:20px;
+}
+
+.blog-entries:first-child {
+    border:none;
+    padding: 0;
+    margin:0;
+}
+
+.blog-entries {
+    border-top: 1px solid #d9d9d9;
+    padding-top: 60px;
+    margin-top: 60px;
+}
+
+
+.blog-media{
+    margin-bottom: 40px;
+}
+
+.blog-headline .post-name a {
+    color: #ffff;
+}
+
+.post-name {
+    color: #ffff !important;
+    font-family: 'Raleway';
+    font-weight:400;
+    font-size:32px;
+    line-height: 48px;
+    text-transform: none;
+}
+
+.post-meta {
+    color:#dadada;
+    margin-top: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.blog-intro{
+    margin-top: 10px;
+    color: #dadada;
+    font-size: 15px;
+}
+
+.readmore-button {
+    font-family: 'Raleway';
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height:20px;
+    font-size:13px;
+    letter-spacing: 0.1em;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #ffff;
+    color: #ffff;
+}
+
+.blog-media p {
+    margin-top: 20px;
+}
+.pagin span{
+    width: 10px;
+}
+
+.pagin {
+    width:100%;
+    display:inline-block;
+    padding: 5px 10px;
+    margin:0 2px 0 0;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size:18px;
+}
