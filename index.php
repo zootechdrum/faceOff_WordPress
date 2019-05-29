@@ -11,13 +11,12 @@ get_header();
     </div>
     <div class="main-content">
         <div class="blog-content">
-            <div class="col-lg-8">
-                <div class="row">
+            <div class="col-lg-8  col-12">
                     <?php 
                        while(have_posts()) {
                         the_post();?>
                     <div class="blog-entries">
-                        <div class="blog-media">
+                        <div class="blog-media youtube-responsive-container">
                             <?php the_field('oembed');?>
                         </div>
                         <div class="blog-headline">
@@ -33,7 +32,6 @@ get_header();
                         </div>
                     </div>
                     <p><a class="readmore-button" href="<?php the_permalink(); ?>">Read More</a></p>
-                </div>
                 <?php } ?>
             </div>
         </div>
