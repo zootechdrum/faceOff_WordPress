@@ -36,7 +36,6 @@ body{
   }
 
 .nopadding > img {
-    height: 439px;
     width: 100%;
     min-width: 340px;;
 }
