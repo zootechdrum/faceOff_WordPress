@@ -175,8 +175,9 @@ span {
   }
   .fab {
       font-size: 18px;
+      color:#ffff;
   }
-  .fa-instagram:hover {
+  .instagram > .fab:hover {
     color:#8a3ab9
   }
   .fa-twitter:hover{

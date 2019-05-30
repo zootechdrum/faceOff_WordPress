@@ -70,7 +70,7 @@
                                     <strong>FaceOff Visuals&nbsp;</strong>
                                 </h5>
                                 <h5>
-                                    E: rakeembattle90@gmail.com
+                                    E: faceoffvisuals17@gmail.com
                                 </h5>
                             </div>
                         </div>
