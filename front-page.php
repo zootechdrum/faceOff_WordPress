@@ -33,8 +33,8 @@
                 </div>
                 <div class="col-lg-6">
 
-                    <form action="https://mailthis.to/rakeembattle90@gmail.com" method="POST"
-                        encType="multipart/form-data" class="form">
+                    <form action="https://formspree.io/rakeembattle90@gmail.com" method="POST"
+                         class="form">
                         <div class="form__group">
                             <label for="name" class="form__label">Full name *</label>
                             <input type="text" name="name" class="form-control" placeholder="Full Name" id="name"

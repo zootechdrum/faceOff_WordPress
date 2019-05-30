@@ -11,7 +11,8 @@ get_header();
     </div>
     <div class="main-content">
         <div class="blog-content">
-            <div class="col-lg-8  col-12">
+              <div class="row">
+              <div class="col-lg-8  col-12">
                     <?php 
                        while(have_posts()) {
                         the_post();?>
@@ -33,6 +34,12 @@ get_header();
                     </div>
                     <p><a class="readmore-button" href="<?php the_permalink(); ?>">Read More</a></p>
                 <?php } ?>
+            </div>
+            <div class="col-lg-4">
+            <?php if(is_active_sidebar('sidebar')): ?>
+	<?php dynamic_sidebar('sidebar'); ?>
+	<?php endif; ?>
+                </div>
             </div>
         </div>
     </div>

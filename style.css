@@ -23,6 +23,18 @@ body{
 .dark-header {
     background: #1a1a1a;
 }
+.navbar .toggler{
+    border-color: rgb(255,102,203);;
+    background-color: red;
+}
+
+.navbar-toggler-icon {
+    background-image: url(down.png);
+    color:white;
+    background-color: rgb(255,102,203);
+    border-radius: 50%;
+}
+}
 .navbar-brand {
     color:white;
 }
@@ -295,4 +307,12 @@ overflow:hidden;
     border-radius: 2px;
     font-weight: 600;
     font-size:18px;
+}
+
+/*Media Queries*/
+
+@media (max-width: 990px) {
+    .contact-details {
+        margin: 60px 0 0 0;
+    }
 }

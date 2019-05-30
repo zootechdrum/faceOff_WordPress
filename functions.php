@@ -1,6 +1,7 @@
 <?php 
     function faceOff_files() {
         // wp_enqueue_style('bootstrap', get_theme_file_uri('/js/scripts-bundles.js'), NULL,'1.0', true);
+        wp_enqueue_script('bottstrapjs','//stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'); 
         wp_enqueue_style('bootstrap', '//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
         wp_enqueue_style('custom-google-fonts', 'fonts.googleapis.com/css?family=Open+Sans:300,400,800&display=swap');
         wp_enqueue_style('custom-google-fonts', 'fonts.googleapis.com/css?family=Raleway:900&display=swap');
@@ -15,3 +16,17 @@
     add_action('wp_enqueue_scripts', 'faceOff_files');
     //The below adds a title name to the open tab
     add_action('after_setup_theme','faceOff_features');
+
+    // Register Widget Locations
+function wpbasics_init_widgets($id){
+	register_sidebar(array(
+		'name'  => 'Sidebar',
+		'id'    => 'sidebar',
+		'before_widget' => '<div class="sidebar-module">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h4>',
+		'after_title'   => '</h4>'
+	));
+}
+add_action('widgets_init','wpbasics_init_widgets' );
+
