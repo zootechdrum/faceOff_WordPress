@@ -23,15 +23,11 @@ body{
 .dark-header {
     background: #1a1a1a;
 }
-.navbar .toggler{
-    border-color: rgb(255,102,203);;
-    background-color: red;
-}
 
 .navbar-toggler-icon {
     background-image: url(down.png);
     color:white;
-    background-color: rgb(255,102,203);
+    background-color: #ff69b4;
     border-radius: 50%;
 }
 }
@@ -124,6 +120,10 @@ span {
     height:2px;
     display:inline-block;
 }
+#textarea {
+    color: #ffff;
+}
+
   .form__submit {
       margin-top: 30px;
   }
