@@ -25,10 +25,11 @@ body{
 }
 
 .navbar-toggler-icon {
-    background-image: url(down.png);
-    color:white;
-    background-color: #ff69b4;
-    border-radius: 50%;
+    background-image: url(downIcn.png);
+    border-radius: 50%;;
+    background-color:#e83e8c;
+}
+.navbar-toggler {
 }
 
 .navbar-brand {
