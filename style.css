@@ -30,7 +30,7 @@ body{
     background-color: #ff69b4;
     border-radius: 50%;
 }
-}
+
 .navbar-brand {
     color:white;
 }
@@ -39,6 +39,11 @@ body{
 }
 
 /*img container */ 
+.hide-overflow  {
+    margin-top:10px;
+    overflow: hidden;
+}
+
 .nopadding{
     padding:0;
   }

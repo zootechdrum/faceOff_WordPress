@@ -1,16 +1,16 @@
 <!-- Grabs the header information from header.php -->
 <?php get_header(); ?>
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-4 col-sm-6 col-sm nopadding">
-            <img src="<?php echo get_template_directory_uri()?>/cam.jpg" <alt="business logo" />
-        </div>
-        <div class="col-lg-4 col-sm-6  col-sm nopadding">
-            <img src="<?php echo get_template_directory_uri()?>/cam.jpg" <alt="business logo" />
-        </div>
-        <div class="col-lg-4 col-sm-6  col-sm nopadding">
-            <img src="<?php echo get_template_directory_uri()?>/cam.jpg" <alt="business logo" />
-        </div>
+    <div class="row hide-overflow">
+            <div class="col-lg-4 col-sm-6 col-sm nopadding">
+                <img src="<?php echo get_template_directory_uri()?>/cam.jpg" <alt="business logo" />
+            </div>
+            <div class="col-lg-4 col-sm-6  col-sm nopadding">
+                <img src="<?php echo get_template_directory_uri()?>/cam.jpg" <alt="business logo" />
+            </div>
+            <div class="col-lg-4 col-sm-6  col-sm nopadding">
+                <img src="<?php echo get_template_directory_uri()?>/cam.jpg" <alt="business logo" />
+            </div>
     </div>
 </div>
 
@@ -33,8 +33,7 @@
                 </div>
                 <div class="col-lg-6">
 
-                    <form action="https://formspree.io/rakeembattle90@gmail.com" method="POST"
-                         class="form">
+                    <form action="https://formspree.io/rakeembattle90@gmail.com" method="POST" class="form">
                         <div class="form__group">
                             <label for="name" class="form__label">Full name *</label>
                             <input type="text" name="name" class="form-control" placeholder="Full Name" id="name"
