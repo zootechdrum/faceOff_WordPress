@@ -35,11 +35,11 @@ get_header();
                     <p><a class="readmore-button" href="<?php the_permalink(); ?>">Read More</a></p>
                 <?php } ?>
             </div>
-            <div class="col-lg-4">
-            <?php if(is_active_sidebar('sidebar')): ?>
-	<?php dynamic_sidebar('sidebar'); ?>
-	<?php endif; ?>
-                </div>
+            <div class="side-bar">
+                        <?php if(is_active_sidebar('sidebar')): ?>
+                        <?php dynamic_sidebar('sidebar'); ?>
+                        <?php endif; ?>
+                        </div>
             </div>
         </div>
     </div>

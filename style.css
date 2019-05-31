@@ -201,7 +201,7 @@ span {
   /*Blog Page CSS*/
   .section-title {
       margin-top: -10px;
-      margin-bottom: 100px;
+      margin-bottom: 10px;
   }
   .section-title h2 {
       color:#ffff;
@@ -308,6 +308,10 @@ overflow:hidden;
     border-radius: 2px;
     font-weight: 600;
     font-size:18px;
+}
+
+.side-bar {
+    padding: 120px 0 0 40px; 
 }
 
 /*Media Queries*/
