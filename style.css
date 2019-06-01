@@ -320,6 +320,19 @@ overflow:hidden;
     padding: 120px 0 0 40px; 
 }
 
+.sidebar-module {
+    color: #ffff;
+}
+
+.sidebar-module > ul {
+    list-style: none;
+    padding-left:0px;
+}
+.sidebar-module > ul > li {
+    padding: 10px 10px 10px 0;
+    margin-left:0;
+}
+
 /*Media Queries*/
 
 @media (max-width: 990px) {
