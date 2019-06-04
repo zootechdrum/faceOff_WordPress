@@ -2,13 +2,13 @@
 <?php get_header(); ?>
 <div class="container-fluid">
     <div class="row hide-overflow">
-            <div class="col-lg-4 col-sm-6 col-sm nopadding">
+            <div class="col-lg-4 col-sm-6 col-sm nopadding m-top">
                 <img src="<?php echo get_template_directory_uri()?>/camcam.jpg" <alt="business logo" />
             </div>
-            <div class="col-lg-4 col-sm-6  col-sm nopadding">
+            <div class="col-lg-4 col-sm-6  col-sm nopadding m-top">
                 <img src="<?php echo get_template_directory_uri()?>/camcam.jpg" <alt="business logo" />
             </div>
-            <div class="col-lg-4 col-sm-6  col-sm nopadding">
+            <div class="col-lg-4 col-sm-6  col-sm nopadding m-top">
                 <img src="<?php echo get_template_directory_uri()?>/camcam.jpg" <alt="business logo" />
             </div>
     </div>
