@@ -387,5 +387,10 @@ overflow:hidden;
     }
     .m-top {
         margin-top: 0px;
+        
+    }
+    .side-bar{
+        padding: 0 20px 0 20px;
+        width:60%;
     }
 }
