@@ -23,7 +23,7 @@
                         <a class="nav-link" href="<?php echo site_url('') ?>" <span class="sr-only">Home</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo site_url('/blog')?>">Blog</a>
+                        <a class="nav-link" href="<?php echo site_url('/blog')?>">Videos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo site_url('/#contact')?>">Contact</a>
