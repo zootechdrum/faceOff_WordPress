@@ -56,7 +56,6 @@ body{
 
 .nopadding > img {
     width: 100%;
-    min-width: 340px;;
 }
 
   label {
@@ -388,12 +387,28 @@ overflow:hidden;
     .contact-details {
         margin: 60px 0 0 0;
     }
-    .m-top {
+    #firstImg{
+        margin-top: 20px;   
+    }
+    #secondImg{
+        margin-top: 20px;   
+    }
+    .nopadding{
         margin-top: 0px;
         
     }
     .side-bar{
         padding: 0 20px 0 20px;
         width:60%;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px) {
+    #secondImg{
+        margin-top: 0px;   
     }
 }

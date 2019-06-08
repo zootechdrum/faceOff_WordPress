@@ -3,7 +3,7 @@ get_header();
 ?>
 <div class="container">
     <div class="section-title text-center">
-        <h2>BLOG</h2>
+        <h2>LATEST VIDEOS</h2>
         <div class="seperator size-small">
             <span></span>
         </div>

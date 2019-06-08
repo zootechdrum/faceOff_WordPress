@@ -2,10 +2,10 @@
 <?php get_header(); ?>
 <div class="container-fluid">
     <div class="row hide-overflow">
-            <div class="col-lg-4 col-sm-6 col-sm nopadding m-top">
+            <div id="firstImg" class="col-lg-4 col-sm-6 col-sm nopadding m-top">
                 <img src="<?php echo get_template_directory_uri()?>/sepia_lady.jpg" <alt="business logo" />
             </div>
-            <div class="col-lg-4 col-sm-6  col-sm nopadding m-top">
+            <div id="secondImg"  class="col-lg-4 col-sm-6  col-sm nopadding m-top">
                 <img src="<?php echo get_template_directory_uri()?>/guy_in_car.jpg" <alt="business logo" />
             </div>
             <div class="col-lg-4 col-sm-6  col-sm nopadding m-top">
