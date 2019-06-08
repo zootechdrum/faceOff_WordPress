@@ -34,7 +34,10 @@ body{
     color:white;
 }
 .navbar-nav.ml-auto li a{
-    color: white !important;
+    color: #ffff !important;
+}
+.navbar-nav.ml-auto li:hover{
+    background-color: #4da5f5;
 }
 
 /*img container */ 

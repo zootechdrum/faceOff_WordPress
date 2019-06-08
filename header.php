@@ -19,13 +19,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li>
-                        <a class="nav-link" href="<?php echo site_url('') ?>" <span class="sr-only">Home</span></a>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="<?php echo site_url("") ?>" <span class="sr-only">Home</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?php echo site_url('/blog')?>">Videos</a>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="<?php echo site_url('/blog');?>">Videos</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" <?php if (is_page('contact')) echo 'class="current-menu-item"' ?>>
                         <a class="nav-link" href="<?php echo site_url('/#contact')?>">Contact</a>
                     </li>
                 </ul>
