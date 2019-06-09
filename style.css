@@ -4,6 +4,13 @@ Author: Cesar Gomez
 Version 1.0
 */
 
+*
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
 html {
     scroll-behavior: smooth;
 }
@@ -42,7 +49,7 @@ body{
 
 /*img container */ 
 .hide-overflow  {
-    margin-top:10px;
+    margin-top:75px;
     overflow: hidden;
 }
 
@@ -50,9 +57,9 @@ body{
     padding:0;
   }
 
-  .m-top {
+  /* .m-top {
       margin-top: 65px;
-  }
+  } */
 
 .nopadding > img {
     width: 100%;
@@ -383,9 +390,12 @@ overflow:hidden;
 
 /*Media Queries*/
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
     .contact-details {
         margin: 60px 0 0 0;
+    }
+    .hide-overflow {
+        margin-top:55px;
     }
     #firstImg{
         margin-top: 20px;   
@@ -410,5 +420,8 @@ overflow:hidden;
 @media (max-width: 575px) {
     #secondImg{
         margin-top: 0px;   
+    }
+    .hide-overflow {
+        margin-top:49px;
     }
 }
