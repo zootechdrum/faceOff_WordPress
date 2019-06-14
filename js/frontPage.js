@@ -1,2 +1,6 @@
-console.log("Hello World")
-console.log(jQuery)
+jQuery(document).ready(function() {
+    jQuery('#firstImg').click(function() {
+        jQuery('.video-component').toggle("slow");
+        
+    })
+});

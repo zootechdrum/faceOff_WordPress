@@ -47,6 +47,11 @@ body{
     background-color: #4da5f5;
 }
 
+.video-component {
+    height:50%;
+    display:hidden;
+}
+
 /*img container */ 
 .hide-overflow  {
     margin-top:75px;

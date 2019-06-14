@@ -1,5 +1,8 @@
 <!-- Grabs the header information from header.php -->
 <?php get_header(); ?>
+<div class="container video-component">
+    <p>Hello World</p>
+</div>
 <div class="container-fluid">
     <div class="row hide-overflow">
             <div id="firstImg" class="col-lg-4 col-sm-6 col-sm nopadding m-top">
