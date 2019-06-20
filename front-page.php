@@ -5,14 +5,23 @@
 </div>
 <div class="container-fluid">
     <div class="row hide-overflow">
-            <div id="firstImg" class="col-lg-4 col-sm-6 col-sm nopadding m-top">
-                <img src="<?php echo get_template_directory_uri()?>/sepia_lady.jpg" <alt="business logo" />
+            <div id="firstImg" class=" img-container col-lg-4 col-sm-6 col-sm nopadding m-top">
+                <img class="image" src="<?php echo get_template_directory_uri()?>/sepia_lady.jpg" <alt="business logo" />
+                <div class="middle">
+                    <div class="text">FaceOff</div>
+                </div>
             </div>
-            <div id="secondImg"  class="col-lg-4 col-sm-6  col-sm nopadding m-top">
-                <img src="<?php echo get_template_directory_uri()?>/guy_in_car.jpg" <alt="business logo" />
+            <div id="secondImg"  class="img-container col-lg-4 col-sm-6  col-sm nopadding m-top">
+                <img class="image" src="<?php echo get_template_directory_uri()?>/guy_in_car.jpg" <alt="business logo" />
+                <div class="middle">
+                    <div class="text">FaceOff</div>
+                </div>
             </div>
-            <div class="col-lg-4 col-sm-6  col-sm nopadding m-top">
-                <img src="<?php echo get_template_directory_uri()?>/guy_in_suit.jpg" <alt="business logo" />
+            <div id="thirdImg" class="img-container col-lg-4 col-sm-6  col-sm nopadding m-top">
+                <img class="image" src="<?php echo get_template_directory_uri()?>/guy_in_suit.jpg" <alt="business logo" />
+                <div class="middle">
+                    <div class="text">FaceOff</div>
+                </div>
             </div>
     </div>
 </div>
