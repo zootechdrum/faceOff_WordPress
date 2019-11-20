@@ -3,7 +3,7 @@ get_header();
 ?>
 <div class="container">
     <div class="section-title text-center">
-        <h2>BLOG</h2>
+        <h2>LATEST VIDEOS</h2>
         <div class="seperator size-small">
             <span></span>
         </div>
@@ -12,7 +12,7 @@ get_header();
     <div class="main-content">
         <div class="blog-content">
               <div class="row">
-              <div class="col-lg-8  col-12">
+              <div class="col-lg-9  col-12">
                     <?php 
                        while(have_posts()) {
                         the_post();?>
@@ -35,7 +35,7 @@ get_header();
                     <p><a class="readmore-button" href="<?php the_permalink(); ?>">Read More</a></p>
                 <?php } ?>
             </div>
-            <div class="side-bar">
+            <div class="side-bar col-lg-3">
                         <?php if(is_active_sidebar('sidebar')): ?>
                         <?php dynamic_sidebar('sidebar'); ?>
                         <?php endif; ?>

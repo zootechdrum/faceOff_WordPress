@@ -4,6 +4,13 @@ Author: Cesar Gomez
 Version 1.0
 */
 
+*
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
 html {
     scroll-behavior: smooth;
 }
@@ -25,22 +32,67 @@ body{
 }
 
 .navbar-toggler-icon {
-    background-image: url(down.png);
-    color:white;
-    background-color: #ff69b4;
-    border-radius: 50%;
+    background-image: url(downIcn.png);
+    border-radius: 50%;;
+    background-color:#e83e8c;
 }
 
 .navbar-brand {
     color:white;
 }
 .navbar-nav.ml-auto li a{
-    color: white !important;
+    color: #ffff !important;
 }
+.navbar-nav.ml-auto li:hover{
+    background-color: #4da5f5;
+}
+
+.video-component {
+    height:50%;
+    display:hidden;
+}
+
+
+.conatiner-fluid {
+    position:relative;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+#firstImg {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.img-container:hover .image{
+    opacity:0.1;
+}
+
+.img-container:hover > .middle {
+    opacity:1;
+}
+
+.text {
+    background-color: #007bff;;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;    
+}
+
 
 /*img container */ 
 .hide-overflow  {
-    margin-top:10px;
+    margin-top:75px;
     overflow: hidden;
 }
 
@@ -50,7 +102,6 @@ body{
 
 .nopadding > img {
     width: 100%;
-    min-width: 340px;;
 }
 
   label {
@@ -60,7 +111,7 @@ body{
       font-weight: 300;
   }
 
-  input[type=text], input[type=email], #textarea{
+  input[type=text], input[type=email], #textarea {
     background: #1a1a1a;
     border-color: #4d4d4d;
   }
@@ -251,7 +302,7 @@ span {
 .post-name {
     color: #ffff !important;
     font-family: 'Raleway';
-    font-weight:400;
+    font-weight:300;
     font-size:32px;
     line-height: 48px;
     text-transform: none;
@@ -284,9 +335,17 @@ span {
     line-height:20px;
     font-size:13px;
     letter-spacing: 0.1em;
-    padding-bottom: 2px;
+    padding-bottom: 5px;
     border-bottom: 2px solid #ffff;
     color: #ffff;
+}
+a.readmore-button  {
+    text-decoration: none;
+    color:#ffff;
+}
+
+a.readmore-button:hover {
+    border-bottom:1px solid #4da5f5;
 }
 .youtube-responsive-container {
 position:relative;
@@ -315,14 +374,93 @@ overflow:hidden;
     font-size:18px;
 }
 
+/*#s is the search field*/
+#s {
+    display:block;
+    width:100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#ffffff;
+    border-radius: 2px;
+    border: 1px solid #ced4da;
+}
+
+.screen-reader-text {
+    display: none;
+}
+
+#searchsubmit {
+    display: none;
+}
+
 .side-bar {
     padding: 120px 0 0 40px; 
 }
 
+.sidebar-module {
+    color: #ffff;
+    margin-top:40px;
+}
+
+.sidebar-module > ul {
+    list-style: none;
+    padding-left:0px;
+}
+.sidebar-module > ul > li {
+    padding: 10px 10px 10px 0;
+    margin-left:0;
+    border-bottom: 2px solid #dadada;
+    font-weight:300;
+}
+
+.sidebar-module > ul > li > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sidebar-module > ul > li > a:hover {
+    color: #4da5f5;
+}
+.sidebar-module > h4 {
+    margin-bottom: 20px;
+}
+
 /*Media Queries*/
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
     .contact-details {
         margin: 60px 0 0 0;
+    }
+    .hide-overflow {
+        margin-top:55px;
+    }
+    #firstImg{
+        margin-top: 20px;   
+    }
+    #secondImg{
+        margin-top: 20px;   
+    }
+    .nopadding{
+        margin-top: 0px;
+        
+    }
+    .side-bar{
+        padding: 0 20px 0 20px;
+        width:60%;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px) {
+    #secondImg{
+        margin-top: 0px;   
+    }
+    .hide-overflow {
+        margin-top:49px;
     }
 }
