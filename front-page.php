@@ -6,19 +6,19 @@
 <div class="container-fluid">
     <div class="row hide-overflow">
             <div id="firstImg" class=" img-container col-lg-4 col-sm-6 col-sm nopadding m-top">
-                <img class="image" src="<?php echo get_template_directory_uri()?>/sepia_lady.jpg" <alt="business logo" />
+                <img class="image" src="<?php echo get_template_directory_uri()?>/site_images/sepia_lady.jpg" <alt="business logo" />
                 <div class="middle">
                     <div class="text">FaceOff</div>
                 </div>
             </div>
             <div id="secondImg"  class="img-container col-lg-4 col-sm-6  col-sm nopadding m-top">
-                <img class="image" src="<?php echo get_template_directory_uri()?>/guy_in_car.jpg" <alt="business logo" />
+                <img class="image" src="<?php echo get_template_directory_uri()?>/site_images/guy_in_car.jpg" <alt="business logo" />
                 <div class="middle">
                     <div class="text">FaceOff</div>
                 </div>
             </div>
             <div id="thirdImg" class="img-container col-lg-4 col-sm-6  col-sm nopadding m-top">
-                <img class="image" src="<?php echo get_template_directory_uri()?>/guy_in_suit.jpg" <alt="business logo" />
+                <img class="image" src="<?php echo get_template_directory_uri()?>/site_images/guy_in_suit.jpg" <alt="business logo" />
                 <div class="middle">
                     <div class="text">FaceOff</div>
                 </div>

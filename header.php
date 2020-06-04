@@ -11,7 +11,7 @@
 
     <body <?php body_class(); ?>>
         <nav class="navbar navbar-expand-lg fixed-top dark-header">
-            <img class="header-logo" src="<?php echo get_template_directory_uri()?>/header_logo.png"
+            <img class="header-logo" src="<?php echo get_template_directory_uri()?>/site_imagaes/header_logo.png"
                 <alt="business logo" class="header-logo" />
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
